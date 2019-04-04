@@ -19,7 +19,7 @@ namespace Multas.Models{
         //CRIAR CHAVES FORASTEIRAS
 
         //FK para o Agente
-        [ForeignKey("Agemte")]
+        [ForeignKey("Agente")]
         
         public int AgenteFK { get; set; }
 
