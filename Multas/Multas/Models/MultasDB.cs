@@ -14,5 +14,12 @@ namespace Multas.Models{
         public virtual DbSet<Condutores> Condutores { get; set; } // tabela Condutores
         public virtual DbSet<Agentes> Agentes { get; set; } // tabela Agentes
         public virtual DbSet<Viaturas> Viaturas { get; set; } // tabela Viaturas
+
+        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Conventions.Remove<>;
+        //    modelBuilder.Conventions.Remove<>;
+        //    base.OnModelCreating(modelBuilder);
+        //}
     }
 }

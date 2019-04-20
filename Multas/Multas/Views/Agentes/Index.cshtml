@@ -33,7 +33,10 @@
             @Html.DisplayFor(modelItem => item.Esquadra)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Fotografia)
+            @*mostra o conteúdo do campo Fotografia
+            @Html.DisplayFor(modelItem => item.Fotografia)*@
+            @* quero mostra a imagem do Agente *@
+            <img src="~/imagensAgentes/@item.Fotografia" height="50" />
         </td>
         <td>
             @Html.ActionLink("Editar", "Edit", new { id=item.ID }) |
